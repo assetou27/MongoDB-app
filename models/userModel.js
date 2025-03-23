@@ -29,8 +29,5 @@ const userSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Create index for frequently queried fields
-userSchema.index({ email: 1 });
-userSchema.index({ username: 1 });
 
 module.exports = mongoose.model('User', userSchema);

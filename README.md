@@ -1,44 +1,15 @@
-# Blog API with MongoDB
+# MongoDB Application – SBA 319
 
-A simple blog API built with Node.js, Express, and MongoDB.
+A full-stack Node.js + Express + MongoDB REST API to manage Users, Posts, and Comments.
 
-## Features
+---
 
-- User management
-- Blog posts with tags
-- Comments on posts
-- MongoDB validation and indexing for efficient queries
+## 🚀 Features
 
-## API Routes
+- Full CRUD routes using Express
+- Mongoose schema validation
+- MongoDB indexes for efficient querying
+- Sample data seeder (`npm run seed`)
+- Data tested with Postman + Compass
 
-### Users
-
-- GET `/api/users` - Get all users
-- GET `/api/users/:id` - Get single user
-- POST `/api/users` - Create new user
-- PUT `/api/users/:id` - Update user
-- DELETE `/api/users/:id` - Delete user
-
-### Posts
-
-- GET `/api/posts` - Get all posts
-- GET `/api/posts/:id` - Get single post
-- POST `/api/posts` - Create new post
-- PUT `/api/posts/:id` - Update post
-- DELETE `/api/posts/:id` - Delete post
-
-### Comments
-
-- GET `/api/comments` - Get all comments
-- GET `/api/comments/:id` - Get single comment
-- POST `/api/comments` - Create new comment
-- PUT `/api/comments/:id` - Update comment
-- DELETE `/api/comments/:id` - Delete comment
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create a `.env` file with your MongoDB connection string
-4. Seed the database: `npm run seed`
-5. Start the server: `npm start`
+---
